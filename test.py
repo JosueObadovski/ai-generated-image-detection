@@ -1,0 +1,1 @@
+print("Projeto TCC iniciado com sucesso")

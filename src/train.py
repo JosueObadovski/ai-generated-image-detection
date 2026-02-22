@@ -47,4 +47,4 @@ def train_model(epochs=5, lr=0.001):
 
 
 if __name__ == "__main__":
-    train_model()
+    train_model(epochs=2)

@@ -36,5 +36,7 @@ def predict_image(model, image):
 
     return {
         "class": class_names[predicted.item()],
-        "confidence": confidence.item()
+        "confidence": confidence.item(),
+        "prob_fake": probabilities[0][0].item(),
+        "prob_real": probabilities[0][1].item()
     }
